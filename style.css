@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400 &display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',arial;
+    font-size: 16px;
+}
+img{
+    width:100%;
+}
+h1{
+    font-size: 40px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+section{
+    padding-bottom:150px;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.text-color{
+    color:orange;
+    font-weight: 900;
+}
+.left-about{
+    float: left;
+    width: 550px;
+}
+.right-about{
+    float: right;
+    width: 550px;
+}
+.link-button{
+    font-weight: 500;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgb(218, 77, 124), rgb(235, 11, 149));
+    text-decoration: none;
+}
+.left-image{
+float: left;
+width: 550px;
+}
+.right-content{
+padding-top:200px;
+float: right;
+width: 550px;
+}
+.my-work{
+    background-image:url("images/latest-work-bg.png");
+    background-repeat:no-repeat;
+}
+.my-work h2{
+    text-align: center;
+}
+
+.work-img{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+
+.testimonial-content{
+    text-align: center;
+    padding: 60px 0px;
+}
+.testimonial-content h1{
+    text-align: center;
+    padding: 60px 0px;
+}
+.testimonial-content .client-md h3 {
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+    color:#110e0e   
+}
+.testimonial-content .client-md span{
+    font-size: 15px;
+    color: lightgray;
+}
+.message-box {
+    background-image: linear-gradient(to right,cyan,blue);
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.message-box h1 {
+    font-size: 22px;
+}
+
+.message-box p {
+    color: white;
+    font-size: 15px;
+}
+footer{
+    background: #6b457e;
+    padding: 5px 0px
+}
+footer {
+    color: #faeded;
+    text-align: center;
+}
